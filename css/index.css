@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Heebo', sans-serif;
+  letter-spacing: 3px;
+  text-decoration: none;
+}
+
+body {
+  background-color: #121212;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+header {
+  width: 80%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header h1 {
+  color: #F4FCFE;
+  font-size: 3em;
+}
+
+header nav {
+  width: 30%;
+}
+
+header nav ul {
+  color: #F4FCFE;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  list-style: none;
+}
+
+header nav ul li#active a {
+  border-bottom: solid #E43535 1px;
+}
+
+header nav ul li a {
+  border-bottom: solid #121212 1px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  cursor: pointer;
+  font-size: larger;
+}
+
+header nav ul li a:hover {
+  border-color: #E43535;
+}
+
+header > a {
+  text-decoration: none;
+  border: solid 2px #E43535;
+  border-radius: 30px;
+  padding: 10px 40px;
+  color: #F4FCFE;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  font-size: larger;
+}
+
+header > a:hover {
+  background-color: #E43535;
+}
+
+main {
+  width: 80%;
+  height: 55vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main > div {
+  height: 100%;
+  width: 45%;
+}
+
+main > div#text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main > div#text div {
+  width: 100%;
+}
+
+main > div#text div img {
+  width: 16%;
+  margin: 0 10px;
+}
+
+main > div h1 {
+  color: #F4FCFE;
+  font-size: 3em;
+}
+
+main > div h2 {
+  color: #8F8F8F;
+  font-weight: 300;
+  font-size: 2.3em;
+}
+
+main > div#picture {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+main > div > img {
+  max-height: 100%;
+}
+
+footer {
+  width: 80%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: #F4FCFE;
+  font-size: 1.3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  text-align: center;
+  height: 100%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+footer a:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+/*# sourceMappingURL=index.css.map */
